@@ -1,0 +1,18 @@
+{
+    "index.css": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jun 30 2021 04:04:56",
+            "keyStrokeInfo": "\r\n",
+            "position": "1,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jun 30 2021 04:04:58",
+            "keyStrokeInfo": "",
+            "position": "1,1"
+        }
+    ]
+}

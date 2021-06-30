@@ -2,17 +2,42 @@
 
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <title>I T C</title>
+
+  <script src="index.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
+<div id = "blocks">
+  <div id = "top">
+    <h3>INCOME TAX CALCULATOR</h3>
+    
+      <label for="income">GROSS INCOME : </label>
 
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
+      <input type="number" id="income" name="income">
+
+      <button class = "button" onclick="IncomeTax(document.getElementById('income').value)">CALCULATE</button>
+
+      <h1 id="taxable_amount" name="taxable_amount"></h1>
+  </div>
+
+  <div id = "bottom">
+      <h3>GROSS INCOME CALCULATOR</h3>
+
+      <label for="income">NET INCOME : </label>
+
+      <input type="number" id="n_income" name="n_income">
+      
+      <button class = "button" onclick="GrossIncome(document.getElementById('n_income').value)">CALCULATE</button>
+
+      
+      <h1 id="calculated_gross" name="calculated_gross"></h1>
+  </div>
+</div>
 
 </body>
 </html>
